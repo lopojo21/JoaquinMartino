@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Hot Week</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="celulares.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+</head>
+
+<body>
+    <div class="nav" id="nav">
+        <h1>Celulares en oferta</h1>
+        <!-- <div id="carro" class="carro"> -->
+        <!-- <img id="carro" class="carro" src="carrito.png" width="70px"> -->
+        <button id="pago" class="pago"  >Pagar</button>
+        <button id="cancelar" class="pago-2" >Cancelar compra</button>
+        
+    </div>
+    <div class="contenido" id="contenido">
+
+        <div class="contenedor" id="A03">
+            <h3>Samsung A03</h3>
+            <img id="img1" src="img/SA03.png" />
+            <h2 id="precio">$30499</h2>
+            <button class="Agregar" id="ba03" >Agregar</button>
+        </div>
+        <div class="contenedor" id="A13">
+            <h3>Samsung A13</h3>
+            <img id="img2" src="img/SA13.png" />
+            <h2 id="precio">$41999</h2>
+            <button class="Agregar" id="ba13" >Agregar</button>
+        </div>
+        <div class="contenedor" id="A23">
+            <h3>Samsung A23</h3>
+            <img id="img3" src="img/SA23.png" />
+            <h2 id="precio">$58999</h2>
+            <button class="Agregar" id="ba23">Agregar</button>
+        </div>
+        <div class="contenedor" id="G22">
+            <h3>Motorola G22</h3>
+            <img id="img4" src="img/MG22.png" />
+            <h2 id="precio">$40499</h2>
+            <button class="Agregar" id="bg22" >Agregar</button>
+        </div>
+        <div class="contenedor" id="G31">
+            <h3>Motorola G31</h3>
+            <img id="img5" src="img/MG31.png" />
+            <h2 id="precio">$38099</h2>
+            <button class="Agregar" id="bg31" >Agregar</button>
+        </div>
+        <div class="contenedor" id="G51">
+            <h3>Motorola G51</h3>
+            <img id="img6" src="img/MG51.png" />
+            <h2 id="precio">$60587</h2>
+            <button class="Agregar" id="bg51" >Agregar</button>
+        </div>
+        <div class="contenedorF" id="formu" name="formu">
+            <h3 id="titulo">Datos de Envio</h3>
+            <form  class= "formulario" method="POST" >
+            <div class="input" id="input">
+                <input id="nombre" type="nombre" placeholder="NOMBRE">
+            </div>
+            <div class="input" id="input">
+                <input id="apellido" type="apellido" placeholder="APELLIDO">
+            </div>
+            <div class="input" id="input">
+                <input id="direccion" type="direccion" placeholder="PAIS,PROVINCIA,CIUDAD, DIRECCION">
+            </div>
+            <div class="input" id="input">
+                <input id="email" type="email" placeholder="EMAIL">
+            </div>
+            <div class="input" id="input">
+                <input id="telefono" type="number" placeholder="TELEFONO">
+            </div>
+            <button class="benvio" id="benvio" type="submit">ENVIAR</button>
+            <p id="my-form-status"></p>
+            </form>
+            
+        </div>
+    </div>
+    <script src="celulares.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+</script>
+</body>
+
+</html>
+<!-- <img src="SA13.png" />
+            <img src="SA23.png" />
+            <img src="MG22.png" />
+            <img src="MG31.png" />
+            <img src="MG51.png" /> -->
